@@ -1,0 +1,30 @@
+{
+  "name": "my-unsplash-backend",
+  "version": "1.0.0",
+  "description": "Backend for \"My Unsplash\" application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richd0tcom/My-Unsplash-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Richd0tcom/My-Unsplash-backend/issues"
+  },
+  "homepage": "https://github.com/Richd0tcom/My-Unsplash-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.1",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.2"
+  }
+}
