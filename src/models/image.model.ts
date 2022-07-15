@@ -24,9 +24,9 @@ class Image{
 
     }
 
-    async deleteImage(imageFilter:Object ,callback:(err:any, data:any)=>any){
+    async deleteImage(imageFilter:Number ,callback:(err:any, data:any)=>any){
         try {
-            const img = await imageModel.findOneAndDelete(imageFilter);
+            const img = await imageModel.findOneAndDelete({"label":imageFilter});
             
             callback(null, img);
 

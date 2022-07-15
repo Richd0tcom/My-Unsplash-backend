@@ -18,6 +18,9 @@ app.use('/api/v1/images', router)
 const PORT = process.env.PORT
 
 
+
+
 app.listen(PORT, ()=>{
     console.log(`server running on port ${PORT}`);
+
 })
