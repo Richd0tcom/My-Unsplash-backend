@@ -15,7 +15,7 @@ app.use(express.urlencoded({extended:true}));
 app.use('/api/v1/images', router)
 
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 5701
 
 
 
