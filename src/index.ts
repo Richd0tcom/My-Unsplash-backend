@@ -11,7 +11,7 @@ const app = express();
 connection();
 
 app.use(cors({
-    origin:'https://localhost:3000'
+    origin:'http://localhost:3000'
 }))
 //json parsing middleware
 app.use(express.json());
