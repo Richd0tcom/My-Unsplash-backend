@@ -2,11 +2,17 @@ import express from 'express';
 import connection from './db.config';
 import dotenv from 'dotenv'
 import router from './routes/imageRoutes';
+const cors = require('cors')
+
 
 dotenv.config()
 
 const app = express();
 connection();
+
+app.use(cors({
+    origin:'https://localhost:3000'
+}))
 //json parsing middleware
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
